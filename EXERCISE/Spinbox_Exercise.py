@@ -13,9 +13,14 @@ int_var = tk.IntVar()
 spinbox = ttk.Spinbox(window, from_=0, to=100, increment=0.1, textvariable= int_var, font = "calibri 24 bold")
 spinbox.pack()
 
+#textspinbox
+subjects =  ["Maths", "English", "Science", "Computing", "Latin", "Arabic", "Social Studies", "Sports Science"]
+textbox = ttk.Spinbox(window, values=subjects, wrap=True)
+#textbox.pack()
+
 #style
-sty = ttk.Style()
-sty.configure("Custom.TLabel", foreground="blue", font=("Comic Sans MS", 24))
+style = ttk.Style()
+style.configure("Custom.TLabel", foreground="blue", font=("Comic Sans MS", 24))
 
 #frame
 frame = ttk.Frame(window)
