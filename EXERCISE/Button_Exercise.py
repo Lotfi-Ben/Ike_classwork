@@ -7,16 +7,16 @@ def get_button1_text():
 def get_button2_text():
     print("Button 1")
 
-#Window
+#window
 window = tk.Tk()
-window.title("Github project")
+window.title("button")
 window.geometry("300x150")
 
-#LabelFrame
+#labelFrame
 frame = ttk.LabelFrame(window, text="My Choice", padding=10)
 frame.pack(padx=20, pady=20, fill="both", expand=True)
 
-#Buttons
+#buttons
 button = ttk.Button(master=frame, text="Button", command=get_button1_text)
 button_2 = ttk.Button(master=frame, text="Button 2", command=get_button2_text)
 
