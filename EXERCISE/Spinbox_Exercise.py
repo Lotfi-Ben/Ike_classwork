@@ -11,12 +11,12 @@ window.geometry("400x400")
 #spinbox
 int_var = tk.IntVar()
 spinbox = ttk.Spinbox(window, from_=0, to=100, increment=0.1, textvariable= int_var, font = "calibri 24 bold")
-spinbox.pack()
+#spinbox.pack()
 
 #textspinbox
 subjects =  ["Maths", "English", "Science", "Computing", "Latin", "Arabic", "Social Studies", "Sports Science"]
 textbox = ttk.Spinbox(window, values=subjects, wrap=True)
-#textbox.pack()
+textbox.pack()
 
 #style
 style = ttk.Style()
