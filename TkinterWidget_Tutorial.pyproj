@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>67c63b35-cd3a-4ffc-8d96-79c25b9fc951</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TkinterWidget_Tutorial.py</StartupFile>
+    <StartupFile>EXERCISE\Spinbox.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="EXERCISE\Button_Exercise.py" />
+    <Compile Include="EXERCISE\Checkbox.py" />
+    <Compile Include="EXERCISE\Text.py" />
+    <Compile Include="EXERCISE\Spinbox.py" />
+    <Compile Include="EXERCISE\Radio.py" />
+    <Compile Include="EXERCISE\Combobox.py" />
     <Compile Include="EXERCISE\Label_Exercise.py" />
     <Compile Include="EXERCISE\TextEntry_Exercise.py" />
     <Compile Include="TkinterWidget_Tutorial.py" />
